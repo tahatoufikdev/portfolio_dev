@@ -234,8 +234,5 @@
     "text": "Write me a few lines about what takes up your time or what you want to launch. I'll reply with a first idea of a solution.",
     "whatsapp": "Message me on WhatsApp",
     "email": "Send an email"
-  },
-  "footer": {
-    "made_with": "Designed and built with Claude Code."
   }
 }

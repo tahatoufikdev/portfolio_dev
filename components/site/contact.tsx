@@ -29,7 +29,7 @@ export default function Contact({ t }: { t: Dictionary }) {
 
         <div className="mt-20 flex flex-col gap-4 border-t border-white/15 pt-6 text-sm text-white/75 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} Taha TOUFIK. {t.footer.made_with}
+            © {new Date().getFullYear()} Taha TOUFIK
           </p>
           <div className="flex gap-5">
             <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white">
