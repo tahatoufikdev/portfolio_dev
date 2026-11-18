@@ -2,25 +2,22 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'media.licdn.com',
-      },
-    ],
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    formats: ["image/avif", "image/webp"],
   },
-  // Performance optimizations
   compress: true,
   poweredByHeader: false,
-  // Enable React strict mode for better performance
   reactStrictMode: true,
+
+  // Les anciennes pages (déjà indexées par Google) renvoient vers la page unique.
+  async redirects() {
+    return [
+      {
+        source: "/:locale(fr|en|ar)/:page(projets|competences|experiences|tarifs|blog)/:rest*",
+        destination: "/:locale",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

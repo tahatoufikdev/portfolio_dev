@@ -71,13 +71,18 @@ export function middleware(request: NextRequest) {
   }
 
   // Handle locale-based routing
-  const pathnameHasLocale = locales.some(
+  const currentLocale = locales.find(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
+  const pathnameHasLocale = currentLocale !== undefined;
 
-  // If pathname already has locale, just continue
-  if (pathnameHasLocale) {
-    return NextResponse.next();
+  // If pathname already has locale, remember it for the next visit on "/"
+  if (currentLocale) {
+    const response = NextResponse.next();
+    if (request.cookies.get('preferred-language')?.value !== currentLocale) {
+      response.cookies.set('preferred-language', currentLocale, { path: '/', maxAge: 60 * 60 * 24 * 365 });
+    }
+    return response;
   }
 
   // Detect locale based on geolocation and browser preferences

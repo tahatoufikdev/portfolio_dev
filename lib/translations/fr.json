@@ -1,474 +1,241 @@
 {
   "meta": {
-    "title": "Taha TOUFIK - Création Site Web, E-commerce & Maintenance | Développeur Web Freelance",
-    "description": "Création de sites web professionnels : site vitrine à partir de 799€, e-commerce dès 1299€, maintenance 99€/mois. Développeur web freelance expert WordPress, React.js et Next.js. Accompagnement 20€/h. Devis gratuit.",
-    "titleTemplate": "%s | Taha TOUFIK - Développeur Web"
+    "title": "Taha TOUFIK | Sites, applications et automatisations avec l'IA",
+    "description": "Ingénieur logiciel (Bac+5) et développeur freelance. Sites vitrines et e-commerce (WordPress ou sur mesure), applications mobiles et desktop, automatisation de vos tâches répétitives (Excel, commandes, relances) grâce à l'IA."
   },
   "nav": {
-    "home": "Accueil",
-    "skills": "Compétences",
+    "services": "Services",
+    "method": "Méthode",
     "projects": "Projets",
-    "experience": "Expériences",
-    "pricing": "Tarifs",
-    "blog": "Articles",
-    "testimonials": "Témoignages",
+    "about": "Expérience",
     "contact": "Contact",
-    "theme": "Thème"
+    "whatsapp": "WhatsApp",
+    "language": "Langue"
   },
   "hero": {
-    "greeting": "Bonjour, je suis",
-    "name": "Taha TOUFIK",
-    "title": "Ingénieur en Développement Informatique",
-    "description": "",
-    "professional_message": "Créateur d'expériences web modernes et intuitives, je suis un développeur passionné avec une expertise en solutions web complètes. Je conçois des solutions digitales performantes qui allient design élégant et code de qualité, transformant vos idées en applications intuitives pour donner vie à vos projets les plus ambitieux avec des résultats mesurables.",
+    "title": "Je crée vos sites,\nvos automatisations,\net vos applications.",
+    "intro": "Je suis Taha Toufik, ingénieur logiciel titulaire d'un Bac+5 obtenu en France, et développeur freelance. Vous m'expliquez votre besoin avec vos mots, je le transforme en site, en application ou en outil qui fonctionne. Je vérifie tout avant de vous le livrer.",
+    "cta_whatsapp": "Discuter sur WhatsApp",
     "cta_projects": "Voir mes projets",
-    "cta_contact": "Me contacter",
-    "stats": {
-      "projects": "Projets réalisés",
-      "clients": "Clients satisfaits",
-      "experience": "Ans d'expérience",
-      "technologies": "Technologies"
-    }
+    "markets": "Je travaille avec des clients en France et en Arabie saoudite.",
+    "chat_caption": "D'après une vraie demande client",
+    "chat": [
+      {
+        "from": "client",
+        "text": "À chaque commande, je crée la facture, j'achète les étiquettes et j'envoie tout à ma préparatrice. Ça me prend un temps fou."
+      },
+      {
+        "from": "taha",
+        "text": "On peut tout automatiser. Votre client reçoit sa facture dès qu'il paie, et vous recevez un seul email avec les étiquettes et le bon de livraison."
+      },
+      {
+        "from": "client",
+        "text": "Et ça marche avec les outils que j'utilise déjà ?"
+      },
+      {
+        "from": "taha",
+        "text": "Oui, je pars de ce que vous avez : votre site, vos fichiers Excel, vos emails. Vous n'avez rien à changer."
+      }
+    ],
+    "whatsapp_message": "Bonjour Taha, je souhaite discuter de mon projet."
   },
-  "skills": {
-    "title": "Mes",
-    "title_highlight": "Compétences",
-    "subtitle": "Technologies et outils que je maîtrise",
-    "learning": "Toujours en train d'apprendre et de m'améliorer avec les dernières technologies 🚀",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "tools": "Outils & CMS",
-    "mobile": "Mobile",
-    "react": "React",
-    "wordpress": "Wordpress",
-    "nextjs": "Next.js",
-    "typescript": "TypeScript",
-    "tailwind": "Tailwind CSS",
-    "nodejs": "Node.js",
-    "express": "Express",
-    "postgresql": "PostgreSQL",
-    "nosql": "NoSQL",
-    "git": "Git",
-    "figma": "Figma",
-    "reactnative": "React Native",
-    "level": {
-      "senior": "Senior",
-      "intermediate": "Intermédiaire",
-      "junior": "Débutant"
-    }
+  "services": {
+    "title": "Ce que je fais pour vous",
+    "items": [
+      {
+        "title": "Sites vitrines et e-commerce",
+        "text": "Sur WordPress et WooCommerce, ou développés sur mesure avec React et Next.js quand votre projet le demande. Des sites rapides, bien référencés et simples à mettre à jour : je m'occupe du design, du contenu et de la mise en ligne.",
+        "examples": "Site vitrine, boutique en ligne, WordPress ou sur mesure, refonte, maintenance"
+      },
+      {
+        "title": "Applications mobiles",
+        "text": "Des applications pour iPhone et Android, pour vos clients ou pour votre équipe : prise de commande, catalogue, réservation, suivi.",
+        "examples": "iOS et Android, application client ou interne"
+      },
+      {
+        "title": "Applications desktop",
+        "text": "Des logiciels sur mesure pour Windows et Mac, quand un outil doit tourner sur vos postes : gestion de stock, facturation, traitement de fichiers.",
+        "examples": "Windows et Mac, outils internes"
+      },
+      {
+        "title": "Automatisation des tâches",
+        "text": "Fichiers Excel qui se remplissent seuls, calcul des commandes, relances clients, exports automatiques. Je repère ce qui vous fait perdre du temps et je le transforme en outil, avec l'IA quand elle est utile.",
+        "examples": "Excel et Google Sheets, commandes, emails, IA"
+      }
+    ]
   },
-  "levels": {
-    "senior": "Senior",
-    "intermediate": "Intermédiaire",
-    "junior": "Junior"
+  "method": {
+    "title": "Comment je travaille avec l'IA",
+    "intro": "L'IA me fait gagner beaucoup de temps. Ce temps, je le passe à comprendre votre besoin et à vérifier le résultat.",
+    "steps": [
+      {
+        "title": "Vous m'expliquez votre besoin",
+        "text": "Par message ou en appel, avec vos mots. Pas besoin de cahier des charges technique."
+      },
+      {
+        "title": "Je le traduis pour l'IA",
+        "text": "Je découpe le travail en étapes précises et je donne à Claude Code tout le contexte nécessaire. Bien communiquer avec l'IA, c'est ce qui fait la qualité du résultat."
+      },
+      {
+        "title": "Je relis et je teste tout",
+        "text": "Rien n'est livré sans être vérifié : le code, l'affichage sur mobile, les cas particuliers."
+      },
+      {
+        "title": "Je vous livre et je reste disponible",
+        "text": "Vous recevez un outil prêt à l'emploi et des explications claires. Si quelque chose doit changer, vous me le dites."
+      }
+    ]
   },
   "projects": {
-    "title": "Mes",
-    "title_highlight": "Projets",
-    "subtitle": "Une sélection de mes réalisations récentes",
+    "title": "Projets",
+    "intro": "Des sites et des applications en ligne pour de vrais clients, réalisés avec ou sans IA.",
     "all": "Tous",
-    "fullstack": "Full Stack",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "mobile": "Mobile",
-    "wordpress": "Wordpress",
-    "view_demo": "Voir la démo",
-    "view_project": "Voir le projet",
-    "source_code": "Code source",
-    "items": {
-      "ecommerce": {
-        "title": "Plateforme E-commerce",
-        "description": "Une plateforme e-commerce complète avec paiement intégré, gestion des stocks et tableau de bord admin.",
-        "longDescription": "Application e-commerce moderne développée avec Next.js et Node.js. Intégration de Stripe pour les paiements, système de gestion des stocks en temps réel, et interface d'administration complète avec analytics."
-      },
-      "mobile_finance": {
-        "title": "Application Mobile Finance",
-        "description": "Application mobile de gestion financière personnelle avec synchronisation cloud et analyses.",
-        "longDescription": "Application React Native permettant de suivre ses dépenses, créer des budgets et visualiser ses finances avec des graphiques interactifs. Synchronisation multi-appareils via Firebase."
-      },
-      "dashboard": {
-        "title": "Dashboard Analytics SaaS",
-        "description": "Interface de visualisation de données en temps réel avec graphiques interactifs et rapports personnalisés.",
-        "longDescription": "Dashboard moderne pour visualiser et analyser des données en temps réel. Graphiques interactifs, filtres avancés, export de rapports PDF, et personnalisation complète de l'interface."
-      },
-      "api_restful": {
-        "title": "API RESTful Microservices",
-        "description": "Architecture microservices avec API RESTful, authentification JWT et documentation Swagger.",
-        "longDescription": "Backend scalable basé sur une architecture microservices. Authentification JWT, rate limiting, documentation API automatique avec Swagger, et tests unitaires complets."
-      },
-      "social_network": {
-        "title": "Réseau Social Créatif",
-        "description": "Plateforme sociale pour créateurs avec partage de contenu, messagerie et système de likes.",
-        "longDescription": "Réseau social moderne pour créateurs permettant de partager du contenu, interagir avec la communauté, messagerie en temps réel avec WebSockets, et système de recommandations."
-      },
-      "store_it": {
-        "title": "Store It - Cloud Storage",
-        "description": "Application de stockage cloud moderne avec partage de fichiers et gestion des dossiers.",
-        "longDescription": "Solution de stockage cloud complète développée avec Next.js et TypeScript. Interface intuitive pour gérer vos fichiers, partager avec d'autres utilisateurs, et organiser vos documents en toute sécurité."
-      },
-      "airbnb": {
-        "title": "Airbnb Clone",
-        "description": "Clone d'Airbnb avec système de réservation et recherche de logements.",
-        "longDescription": "Application de réservation de logements inspirée d'Airbnb. Recherche avancée, système de réservation, gestion des annonces et interface utilisateur moderne avec Next.js."
-      },
-      "trello": {
-        "title": "Trello Clone",
-        "description": "Application de gestion de tâches inspirée de Trello avec drag & drop.",
-        "longDescription": "Clone de Trello permettant de créer des tableaux, listes et cartes. Système de drag & drop pour organiser les tâches, gestion collaborative et interface intuitive."
-      },
-      "instagram": {
-        "title": "Instagram Clone",
-        "description": "Clone d'Instagram avec partage de photos et système de likes.",
-        "longDescription": "Application sociale inspirée d'Instagram. Partage de photos, système de likes et commentaires, fil d'actualité et profils utilisateurs avec TypeScript et React."
-      },
-      "memories": {
-        "title": "Memories App",
-        "description": "Application de partage de souvenirs avec stockage et galerie photos.",
-        "longDescription": "Application permettant de sauvegarder et partager des souvenirs. Galerie de photos, descriptions, tags et organisation chronologique des moments importants."
-      },
-      "portfolio": {
-        "title": "My Portfolio",
-        "description": "Portfolio personnel moderne avec design élégant et animations fluides.",
-        "longDescription": "Portfolio développeur avec interface moderne, animations Framer Motion, et design responsive. Présentation de projets, compétences et expériences professionnelles."
-      },
-      "travel": {
-        "title": "Travel UI/UX",
-        "description": "Interface de voyage moderne avec design attrayant et expérience utilisateur optimale.",
-        "longDescription": "Landing page pour une application de voyage. Design moderne et épuré, animations subtiles, présentation de destinations et interface responsive développée avec Next.js."
-      },
-      "angular": {
-        "title": "Angular Practices",
-        "description": "Projets d'apprentissage Angular avec différentes fonctionnalités et composants.",
-        "longDescription": "Repository de projets et exercices pratiques Angular. Exploration des fonctionnalités du framework, composants réutilisables et bonnes pratiques de développement."
-      },
-      "boucherie": {
-        "title": "Boucherie La Belle Rouge",
-        "description": "Site e-commerce pour boucherie avec vente en ligne et système de commandes.",
-        "longDescription": "Site e-commerce Wordpress/WooCommerce pour boucherie traditionnelle. Catalogue de produits, système de commande en ligne, gestion des stocks, et interface client intuitive."
-      },
-      "iksiir": {
-        "title": "Iksiir",
-        "description": "Boutique en ligne de produits naturels : huiles de nigelle, figue de barbarie, encens et soins naturels.",
-        "longDescription": "E-commerce Wordpress spécialisé dans les produits naturels et huiles essentielles. Huile de nigelle, huile de pépins de figue de barbarie, encens et produits de soin naturels. Design élégant, paiement sécurisé et livraison rapide."
-      },
-      "mazanutri": {
-        "title": "Mazanutri Beauté",
-        "description": "Site e-commerce beauté avec produits cosmétiques et système de réservation.",
-        "longDescription": "Site Wordpress pour institut de beauté et vente de produits cosmétiques. Catalogue produits, système de commande, intégration réservation, et blog beauté."
-      },
+    "ai_title": "Réalisés avec l'IA",
+    "ai_intro": "Avec Claude Code, je vais plus vite et plus loin : des automatisations qui font gagner des heures au client, et des applications complètes.",
+    "in_progress": "En cours de développement",
+    "cases": {
       "habachiya": {
-        "title": "Habachiya",
-        "description": "Site grossiste spécialisé en huile de graines de nigelle d'Éthiopie et dérivés depuis 2019.",
-        "longDescription": "Modification et personnalisation d'une page Wordpress pour Habachiya, grossiste partenaire privilégié pour l'huile de graines de nigelle d'Éthiopie et ses dérivés. Amélioration du design, optimisation de l'interface B2B et mise en valeur des produits naturels éthiopiens."
+        "summary": "Boutique en ligne d'un grossiste en huile de nigelle d'Éthiopie. J'ai créé le site sur WordPress, puis automatisé avec Claude Code tout ce qui se passe après une commande :",
+        "points": [
+          "Le client reçoit sa facture automatiquement dès le paiement.",
+          "La commande est découpée en colis selon les règles du client (huiles, miel, dattes), et les étiquettes d'expédition sont achetées automatiquement.",
+          "Le propriétaire reçoit un seul email par commande : les étiquettes à coller sur les colis, le bon de livraison et la facture.",
+          "La commande passe en « Terminée » toute seule à la livraison, et le propriétaire est prévenu en cas d'incident.",
+          "Le client choisit son point relais sur une carte au moment de commander."
+        ],
+        "result": "Résultat : après une commande, il ne reste qu'à imprimer, coller les étiquettes et préparer le colis."
       },
-      "ecoviande": {
-        "title": "Ecoviande",
-        "description": "Des viandes d'exception pour des plats mémorables. Boucherie artisanale spécialisée dans les viandes de qualité.",
-        "longDescription": "Site vitrine Wordpress pour Ecoviande, boucherie artisanale proposant des viandes d'exception. Mise en avant de la qualité, la tradition et l'expérience. Design élégant et professionnel pour valoriser le savoir-faire artisanal."
-      }
-    }
-  },
-  "experience": {
-    "title": "Mon",
-    "title_highlight": "Parcours",
-    "subtitle": "Entreprises avec lesquelles j'ai eu le plaisir de collaborer",
-    "months": {
-      "Jan": "Jan",
-      "Feb": "Fév",
-      "Mar": "Mar",
-      "Apr": "Avr",
-      "May": "Mai",
-      "Jun": "Juin",
-      "Jul": "Juil",
-      "Aug": "Août",
-      "Sep": "Sep",
-      "Oct": "Oct",
-      "Nov": "Nov",
-      "Dec": "Déc"
-    },
-    "type": {
-      "Hybrid": "Hybride",
-      "Apprenticeship": "Alternance",
-      "Internship": "Stage"
-    },
-    "items": {
-      "freelance_2024": {
-        "position": "Ingénieur Logiciel",
-        "description": "Conception et développement d'une application e-commerce web en étroite collaboration avec le client. Analyse des besoins, processus de vente, sélection des fournisseurs et design du site.",
-        "achievements": [
-          "Analyse approfondie des besoins client et du public cible",
-          "Développement d'une solution e-commerce sur mesure",
-          "Livraison et implémentation d'une solution adaptée aux exigences du projet"
-        ]
-      },
-      "freelance_2023": {
-        "position": "Ingénieur Logiciel",
-        "description": "En tant que développeur full-stack, j'ai conçu et déployé un site web adapté aux exigences spécifiques d'un projet client avec une architecture robuste.",
-        "achievements": [
-          "Collecte des exigences fonctionnelles et techniques via des ateliers collaboratifs",
-          "Intégration d'un front-end intuitif et d'une gestion back-end optimisée",
-          "Livraison d'une solution clé en main alignée avec les défis du client"
-        ]
-      },
-      "woby": {
-        "position": "Ingénieur Logiciel Full-Stack",
-        "description": "Développement de fonctionnalités complexes dans un environnement AWS. Optimisation de l'affichage de 10 000 images de collaborateurs avec mise en cache et système de reporting.",
-        "achievements": [
-          "Optimisation du stockage et chargement de 1M d'images via S3, Lambda et API Gateway",
-          "Implémentation d'un algorithme de redimensionnement et mécanisme de cache navigateur",
-          "Développement du système de Reporting avec export Excel automatisé via AWS Lambda"
+      "breakfast": {
+        "summary": "Application de click & collect pour les boulangeries. J'ai repris ce projet et je le développe avec Claude Code, pour Android, iPhone et tablette :",
+        "points": [
+          "Le client commande et paie dans l'application (carte, Google Pay), puis retire sa commande sur le créneau choisi.",
+          "Il voit le stock du jour de sa boulangerie et suit la préparation en temps réel, avec un QR code coupe-file.",
+          "Le boulanger reçoit chaque commande en notification et l'accepte en un geste, depuis son téléphone ou sa tablette.",
+          "Connexion avec Google ou par empreinte digitale, programme de fidélité, sauvegardes automatiques des données."
+        ],
+        "captions": [
+          "La boutique",
+          "Le suivi de commande",
+          "L'espace boulanger"
         ]
       },
       "orange": {
-        "position": "Développeur Backend/Analyste",
-        "description": "Optimisation du processus d'analyse de données internes. Automatisation de la collecte et visualisation des données via Google Cloud Platform.",
-        "achievements": [
-          "Conception d'une solution basée sur GCP (Cloud Functions, Cloud Scheduler)",
-          "Développement d'un algorithme pour récupérer et formater les données via Firebase API",
-          "Configuration de Google Data Studio pour visualisation graphique automatisée"
+        "title": "Orange : rapports de données automatiques",
+        "summary": "Pendant mon alternance chez Orange, j'ai automatisé l'analyse des données d'une équipe interne, sans aucune intervention manuelle :",
+        "points": [
+          "À heure fixe, Cloud Scheduler lance une fonction serverless (Node.js sur Google Cloud).",
+          "La fonction récupère les données de plusieurs sources et les met en forme.",
+          "Les données sont stockées dans BigQuery, puis affichées en graphiques dans Google Data Studio."
+        ],
+        "result": "Résultat : l'équipe consulte des tableaux de bord toujours à jour, sans rien préparer à la main.",
+        "flow": [
+          "Cloud Scheduler",
+          "Fonction serverless",
+          "BigQuery",
+          "Data Studio"
         ]
-      },
-      "inria": {
-        "position": "Développeur Web",
-        "description": "Développement web avec focus sur l'expérience utilisateur et l'interface moderne.",
-        "achievements": [
-          "Développement d'interfaces utilisateur avec React.js",
-          "Intégration de Material-UI pour un design cohérent",
-          "Utilisation d'API REST avec Swagger et PostgreSQL"
-        ]
-      }
-    }
-  },
-  "testimonials": {
-    "title": "Témoignages",
-    "subtitle": "Ce que disent mes clients et partenaires"
-  },
-  "contact": {
-    "title": "Contactez-moi",
-    "subtitle": "Une idée de projet ? N'hésitez pas à me contacter !",
-    "stay_connected": "Restons en contact",
-    "intro": "Je suis toujours ouvert aux nouvelles opportunités et aux projets intéressants. N'hésitez pas à me contacter pour discuter de votre projet !",
-    "email": "Email",
-    "whatsapp": "WhatsApp",
-    "phone": "Téléphone",
-    "location": "Localisation",
-    "follow": "Suivez-moi sur les réseaux sociaux",
-    "form": {
-      "name": "Nom complet",
-      "name_placeholder": "Votre nom",
-      "email": "Email",
-      "email_placeholder": "votre@email.com",
-      "subject": "Sujet",
-      "subject_placeholder": "De quoi voulez-vous parler ?",
-      "message": "Message",
-      "message_placeholder": "Votre message...",
-      "sending": "Envoi en cours...",
-      "sent": "Message envoyé !",
-      "send": "Envoyer le message"
-    }
-  },
-  "footer": {
-    "made_with": "Fait avec",
-    "and": "et"
-  },
-  "social": {
-    "whatsapp": "WhatsApp",
-    "email": "Email",
-    "linkedin": "LinkedIn",
-    "github": "GitHub"
-  },
-  "scrollToTop": {
-    "label": "Retour en haut"
-  },
-  "blog": {
-    "title": "Mes",
-    "title_highlight": "Articles",
-    "subtitle": "Conseils, astuces et actualités sur le développement web, WordPress et l'e-commerce",
-    "search_placeholder": "Rechercher un article...",
-    "read_more": "Lire la suite",
-    "no_results": "Aucun article trouvé",
-    "posts": {
-      "wordpress_2025": {
-        "title": "Pourquoi choisir WordPress en 2025 pour votre site web ?",
-        "excerpt": "WordPress reste le CMS le plus populaire au monde. Découvrez pourquoi il est toujours le meilleur choix pour créer votre site vitrine ou e-commerce en 2025."
-      },
-      "ecommerce_trends": {
-        "title": "Les tendances e-commerce incontournables en 2025",
-        "excerpt": "Le commerce en ligne évolue rapidement. Explorez les dernières tendances qui transformeront votre boutique en ligne et augmenteront vos ventes."
-      },
-      "seo_optimization": {
-        "title": "Comment optimiser le SEO de votre site web en 2025",
-        "excerpt": "Positionnez votre site en première page Google avec ces techniques SEO éprouvées. Guide complet pour améliorer votre référencement naturel."
       }
     },
-    "articles": {
-      "wordpress_2025": {
-        "title": "Pourquoi choisir WordPress en 2025 pour votre site web ?",
-        "content": "<h2>WordPress : Le leader incontesté des CMS</h2><p>En 2025, WordPress continue de dominer le marché des systèmes de gestion de contenu avec plus de 43% des sites web mondiaux. Cette popularité n'est pas un hasard, mais le résultat d'années d'innovation et d'amélioration continue.</p><h2>Les avantages de WordPress pour votre entreprise</h2><h3>1. Facilité d'utilisation</h3><p>WordPress est conçu pour être accessible à tous, même sans compétences techniques. Son interface intuitive permet de créer et gérer du contenu facilement, ce qui vous fait gagner du temps et de l'argent.</p><h3>2. Flexibilité et personnalisation</h3><p>Avec plus de 60 000 plugins et des milliers de thèmes, WordPress s'adapte à tous vos besoins : site vitrine, e-commerce, blog, portfolio, et bien plus encore.</p><h3>3. SEO-friendly par nature</h3><p>WordPress est optimisé pour le référencement naturel dès l'installation. Avec des plugins comme Yoast SEO ou Rank Math, vous pouvez facilement améliorer votre visibilité sur Google.</p><h3>4. Sécurité renforcée</h3><p>Les mises à jour régulières et une large communauté garantissent la sécurité de votre site. Des plugins de sécurité comme Wordfence protègent contre les menaces.</p><h3>5. Évolutivité</h3><p>Que vous démarriez avec un petit site ou que vous ayez un grand e-commerce, WordPress évolue avec votre entreprise sans nécessiter de refonte complète.</p><h2>WordPress pour l'e-commerce : WooCommerce</h2><p>WooCommerce transforme WordPress en une puissante plateforme e-commerce. Avec plus de 5 millions d'installations actives, c'est la solution idéale pour vendre en ligne.</p><h2>Conclusion</h2><p>En 2025, WordPress reste le meilleur choix pour créer votre présence en ligne. Sa flexibilité, sa facilité d'utilisation et son écosystème riche en font un investissement sûr pour votre entreprise.</p><p><strong>Besoin d'un site WordPress professionnel ?</strong> Je peux vous aider à créer un site vitrine ou e-commerce sur mesure, optimisé pour la performance et le SEO.</p>"
-      },
-      "ecommerce_trends": {
-        "title": "Les tendances e-commerce incontournables en 2025",
-        "content": "<h2>L'e-commerce en constante évolution</h2><p>Le commerce en ligne connaît une croissance explosive. En 2025, de nouvelles tendances transforment la façon dont les consommateurs achètent en ligne. Découvrez les stratégies essentielles pour rester compétitif.</p><h2>1. L'Intelligence Artificielle au service du client</h2><p>Les chatbots IA offrent un service client 24/7, répondent instantanément aux questions et recommandent des produits personnalisés. Cette technologie améliore l'expérience utilisateur et augmente les conversions.</p><h2>2. Le commerce social (Social Commerce)</h2><p>Instagram, Facebook et TikTok Shop permettent d'acheter directement depuis les réseaux sociaux. Cette tendance réduit les frictions dans le parcours d'achat et touche de nouveaux clients.</p><h2>3. La personnalisation avancée</h2><p>Les clients attendent des expériences personnalisées. Les recommandations basées sur l'historique d'achat, les emails personnalisés et les promotions ciblées augmentent significativement les ventes.</p><h2>4. Le paiement en plusieurs fois</h2><p>Les solutions comme Klarna ou Alma permettent de payer en 3 ou 4 fois sans frais. Cette option augmente le panier moyen de 30% en moyenne.</p><h2>5. La réalité augmentée (AR)</h2><p>Essayer virtuellement des produits avant l'achat réduit les retours et augmente la confiance. Des secteurs comme la mode, la décoration et la beauté adoptent massivement l'AR.</p><h2>6. La livraison ultra-rapide</h2><p>Les clients veulent leur commande rapidement. La livraison le jour même ou le lendemain devient un standard qui influence directement les décisions d'achat.</p><h2>7. La durabilité et l'éco-responsabilité</h2><p>Les consommateurs privilégient les marques engagées. Mettre en avant vos pratiques écologiques et vos produits durables devient un avantage compétitif majeur.</p><h2>Comment implémenter ces tendances ?</h2><p>Vous n'avez pas besoin de tout faire en même temps. Commencez par analyser votre audience et intégrez progressivement les tendances les plus pertinentes pour votre business.</p><h2>Conclusion</h2><p>L'e-commerce en 2025 est centré sur l'expérience client, la personnalisation et l'innovation technologique. Adoptez ces tendances pour rester compétitif et augmenter vos ventes.</p><p><strong>Besoin d'une boutique en ligne performante ?</strong> Je crée des sites e-commerce modernes et optimisés qui intègrent ces dernières tendances.</p>"
-      },
-      "seo_optimization": {
-        "title": "Comment optimiser le SEO de votre site web en 2025",
-        "content": "<h2>Le SEO : Votre meilleur investissement marketing</h2><p>Le référencement naturel (SEO) reste le canal d'acquisition le plus rentable en 2025. Contrairement à la publicité payante, le SEO génère du trafic qualifié sur le long terme sans coûts récurrents.</p><h2>Les fondamentaux du SEO en 2025</h2><h3>1. L'optimisation technique</h3><p><strong>Vitesse de chargement :</strong> Un site rapide (moins de 3 secondes) améliore l'expérience utilisateur et votre classement Google. Utilisez des outils comme PageSpeed Insights pour identifier les points à améliorer.</p><p><strong>Mobile-first :</strong> Google indexe en priorité la version mobile de votre site. Un design responsive est obligatoire.</p><p><strong>HTTPS :</strong> La sécurité est un critère de classement. Installez un certificat SSL sur votre site.</p><h3>2. Le contenu de qualité</h3><p><strong>Créez du contenu utile :</strong> Répondez aux questions de votre audience. Des articles détaillés (plus de 1000 mots) performent mieux.</p><p><strong>Utilisez les mots-clés intelligemment :</strong> Recherchez les termes que vos clients utilisent et intégrez-les naturellement dans vos contenus.</p><p><strong>Mettez à jour régulièrement :</strong> Google favorise les sites qui publient du contenu frais. Un blog actif booste votre SEO.</p><h3>3. Les backlinks (liens entrants)</h3><p>Les liens depuis d'autres sites vers le vôtre sont un signal fort de qualité pour Google. Obtenez des backlinks en créant du contenu remarquable, en participant à des interviews, ou en collaborant avec d'autres entreprises.</p><h3>4. L'expérience utilisateur (UX)</h3><p><strong>Navigation intuitive :</strong> Les visiteurs doivent trouver facilement ce qu'ils cherchent.</p><p><strong>Réduisez le taux de rebond :</strong> Un contenu engageant et pertinent garde les visiteurs sur votre site.</p><p><strong>Call-to-actions clairs :</strong> Guidez vos visiteurs vers l'action que vous souhaitez (achat, contact, inscription).</p><h3>5. Le SEO local</h3><p>Pour les entreprises locales, optimisez votre fiche Google Business Profile, collectez des avis clients, et créez du contenu géolocalisé.</p><h2>Les erreurs SEO à éviter</h2><ul><li>Dupliquer du contenu depuis d'autres sites</li><li>Sur-optimiser avec trop de mots-clés (keyword stuffing)</li><li>Ignorer les balises meta (title, description)</li><li>Négliger la structure des URLs</li><li>Avoir un site sans sitemap XML</li></ul><h2>Mesurer vos résultats</h2><p>Utilisez Google Analytics et Google Search Console pour suivre vos performances : trafic organique, positions dans les résultats, taux de clics, et conversions.</p><h2>Conclusion</h2><p>Le SEO demande du temps et de la patience, mais les résultats en valent la peine. Un site bien optimisé génère du trafic qualifié pendant des années.</p><p><strong>Besoin d'aide pour votre SEO ?</strong> Je crée des sites web optimisés pour Google dès la conception, et je peux auditer votre site actuel pour identifier les opportunités d'amélioration.</p>"
-      }
+    "manual_title": "Réalisés sans IA",
+    "manual_intro": "Avant de travailler avec l'IA, j'ai développé ces projets moi-même, ligne par ligne. C'est cette expérience qui me permet aujourd'hui de vérifier et de corriger ce que l'IA produit.",
+    "items": {
+      "boucherie": "Boutique en ligne d'une boucherie, avec commande en ligne.",
+      "ecoviande": "Site d'une boucherie artisanale spécialisée dans les viandes de qualité.",
+      "iksiir": "Boutique de produits naturels : huile de nigelle, figue de barbarie, encens."
     }
   },
-  "tags": {
-    "nextjs": "Next.js",
-    "nodejs": "Node.js",
-    "postgresql": "PostgreSQL",
-    "stripe": "Stripe",
-    "tailwind": "Tailwind",
-    "react_native": "React Native",
-    "firebase": "Firebase",
-    "typescript": "TypeScript",
-    "chartjs": "Chart.js",
-    "react": "React",
-    "d3js": "D3.js",
-    "rest_api": "REST API",
-    "material_ui": "Material-UI",
-    "express": "Express",
-    "mongodb": "MongoDB",
-    "docker": "Docker",
-    "redis": "Redis",
-    "socketio": "Socket.io",
-    "aws_s3": "AWS S3",
-    "graphql": "GraphQL",
-    "apollo": "Apollo",
-    "cloud_storage": "Stockage Cloud",
-    "booking_system": "Système de Réservation",
-    "drag_drop": "Drag & Drop",
-    "social_media": "Réseaux Sociaux",
-    "javascript": "JavaScript",
-    "memories": "Souvenirs",
-    "portfolio": "Portfolio",
-    "framer_motion": "Framer Motion",
-    "ui_ux": "UI/UX",
-    "travel": "Voyage",
-    "angular": "Angular",
-    "learning": "Apprentissage",
-    "components": "Composants",
-    "wordpress": "Wordpress",
-    "b2b": "B2B",
-    "huile_nigelle": "Huile de Nigelle",
-    "huile_de_nigelle": "Huile de Nigelle",
-    "ethiopie": "Éthiopie",
-    "woocommerce": "WooCommerce",
-    "ecommerce": "E-commerce",
-    "e_commerce": "E-commerce",
-    "php": "PHP",
-    "produits_naturels": "Produits Naturels",
-    "beauty": "Beauté",
-    "site_vitrine": "Site Vitrine",
-    "boucherie": "Boucherie"
-  },
-  "clientTestimonials": {
-    "iksiir": "Je remercie Taha pour la conception de mon site Internet, et surtout la qualité et la rapidité d'exécution, il est à l'écoute de vos besoins mais bien plus encore car il vous aiguilles et vous conseil également de la meilleur des façons afin d'optimiser votre boutique. Toujours disponible il ne vous laisse pas dans la nature après la création de votre boutique il vous réponds et vous accompagne comme il l'a fait avec moi alors que je ne connais rien. Je recommande à 100% les yeux fermées",
-    "boucherie": "Je suis tres satisfait. Du résultat de mon site Internet. L'équipe a répondu à toutes mes attentes. Et m'a accompagner dans les débuts du lancement du site. Je recommande. Fortement. À toute personne voulant créer son site Internet de passer."
-  },
-  "pricing": {
-    "title": "Mes",
-    "title_highlight": "Tarifs",
-    "subtitle": "Des solutions adaptées à vos besoins et votre budget",
-    "popular": "Populaire",
-    "starting_from": "À partir de",
-    "per_month": "Par mois",
-    "per_month_short": "/mois",
-    "per_hour": "Par heure",
-    "per_hour_short": "/h",
-    "custom_price": "Sur mesure",
-    "cta_button": "Démarrer mon projet",
-    "note": "Tous les projets incluent un support technique de 3 mois",
-    "plans": {
-      "showcase": {
-        "name": "Site Vitrine",
-        "description": "Idéal pour présenter votre entreprise ou vos services en ligne",
-        "features": [
-          "Design moderne et responsive",
-          "Jusqu'à 5 pages personnalisées",
-          "Optimisation SEO de base",
-          "Formulaire de contact",
-          "Hébergement conseillé",
-          "Formation à la gestion du site"
+  "about": {
+    "intro": "Ingénieur logiciel, titulaire d'un Bac+5 obtenu en France (Master Expert en développement web), formé chez Woby et Orange. J'y ai déjà automatisé des fonctionnalités et des collectes de données : c'est ce que je fais aujourd'hui pour mes clients, avec l'IA en plus.",
+    "experience_title": "Expérience",
+    "skills_title": "Compétences",
+    "experience": [
+      {
+        "company": "Freelance",
+        "role": "Développeur web et applications",
+        "period": "Depuis 2023",
+        "location": "France et Arabie saoudite",
+        "text": "Sites vitrines et e-commerce (WordPress, WooCommerce, Next.js), applications et automatisations pour des commerçants et des PME."
+      },
+      {
+        "company": "Woby",
+        "role": "Ingénieur logiciel full-stack, en alternance",
+        "period": "Déc. 2022 – août 2023",
+        "location": "Paris, France",
+        "text": "Chargement optimisé d'un million d'images sur AWS (S3, Lambda) et exports Excel automatisés."
+      },
+      {
+        "company": "Orange",
+        "role": "Développeur back-end et analyste, en alternance",
+        "period": "Oct. 2021 – oct. 2022",
+        "location": "Arcueil, France",
+        "text": "Automatisation de la collecte et de la visualisation des données internes sur Google Cloud."
+      },
+      {
+        "company": "Inria",
+        "role": "Développeur web, stage",
+        "period": "Avr. – juil. 2021",
+        "location": "Nancy, France",
+        "text": "Interfaces React avec Material-UI, API REST et PostgreSQL."
+      }
+    ],
+    "skill_groups": [
+      {
+        "title": "IA et automatisation",
+        "items": [
+          "Claude Code",
+          "Rédiger des instructions claires pour l'IA",
+          "Connecter l'IA à vos outils",
+          "Excel et Google Sheets",
+          "Scripts d'automatisation"
         ]
       },
-      "ecommerce": {
-        "name": "E-commerce",
-        "description": "Solution complète pour vendre vos produits en ligne",
-        "features": [
-          "Boutique en ligne complète",
-          "Gestion des produits illimitée",
-          "Paiement sécurisé intégré",
-          "Tableau de bord administrateur",
-          "Gestion des stocks",
-          "Support prioritaire 3 mois",
-          "Formation complète"
+      {
+        "title": "Web",
+        "items": [
+          "WordPress",
+          "WooCommerce",
+          "React",
+          "Next.js",
+          "JavaScript",
+          "TypeScript",
+          "Tailwind CSS"
         ]
       },
-      "maintenance": {
-        "name": "Maintenance",
-        "description": "Prenez soin de votre site internet avec notre service de maintenance mensuel",
-        "features": [
-          "Mises à jour régulières",
-          "Sauvegardes automatiques",
-          "Surveillance de sécurité",
-          "Corrections de bugs",
-          "Support technique prioritaire",
-          "Optimisation des performances"
+      {
+        "title": "Mobile",
+        "items": [
+          "React Native",
+          "Expo"
         ]
       },
-      "hourly": {
-        "name": "Accompagnement",
-        "description": "Support technique et conseils à l'heure pour vos besoins ponctuels",
-        "features": [
-          "Correction de bugs",
-          "Conseils techniques",
-          "Assistance au développement",
-          "Revue de code",
-          "Optimisation de performance",
-          "Formation personnalisée"
+      {
+        "title": "Back-end et données",
+        "items": [
+          "Node.js",
+          "NestJS",
+          "MongoDB",
+          "PostgreSQL",
+          "AWS",
+          "Google Cloud"
         ]
       },
-      "redesign_showcase": {
-        "name": "Refonte Site Vitrine",
-        "description": "Modernisez votre site vitrine avec un nouveau design et de meilleures performances",
-        "features": [
-          "Nouveau design moderne",
-          "Amélioration de l'UX/UI",
-          "Optimisation SEO avancée",
-          "Performance optimisée",
-          "Responsive design",
-          "Migration de contenu"
-        ]
-      },
-      "redesign_ecommerce": {
-        "name": "Refonte E-commerce",
-        "description": "Transformez votre boutique en ligne avec une refonte complète et moderne",
-        "features": [
-          "Design moderne et attractif",
-          "Optimisation du tunnel de vente",
-          "Amélioration de l'expérience utilisateur",
-          "Performance et rapidité",
-          "Migration des produits",
-          "Intégration de nouvelles fonctionnalités"
-        ]
-      },
-      "custom": {
-        "name": "Projet Sur Mesure",
-        "description": "Une solution unique adaptée à vos besoins spécifiques",
-        "features": [
-          "Analyse détaillée de vos besoins",
-          "Architecture personnalisée",
-          "Fonctionnalités illimitées",
-          "Intégrations API tierces",
-          "Évolutivité garantie",
-          "Support technique dédié",
-          "Maintenance continue"
+      {
+        "title": "Outils",
+        "items": [
+          "Git et GitHub",
+          "Vercel",
+          "Figma"
         ]
       }
-    }
+    ]
+  },
+  "contact": {
+    "title": "Parlons de votre projet",
+    "text": "Écrivez-moi en quelques lignes ce qui vous prend du temps ou ce que vous voulez lancer. Je vous réponds avec une première idée de solution.",
+    "whatsapp": "Écrire sur WhatsApp",
+    "email": "Envoyer un email"
+  },
+  "footer": {
+    "made_with": "Site conçu et développé avec Claude Code."
   }
 }

@@ -1,20 +1,14 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Taha TOUFIK - Développeur Web Freelance',
-    short_name: 'Taha TOUFIK',
-    description: 'Création de sites web professionnels, e-commerce et applications sur mesure. Expert WordPress, React.js et Next.js.',
-    start_url: '/',
-    display: 'standalone',
-    background_color: '#000000',
-    theme_color: '#6366f1',
-    icons: [
-      {
-        src: '/icon.svg',
-        sizes: 'any',
-        type: 'image/svg+xml',
-      },
-    ],
+    name: "Taha TOUFIK, sites web et automatisations avec l'IA",
+    short_name: "Taha TOUFIK",
+    description: "Sites WordPress et Next.js, automatisation de vos tâches répétitives grâce à l'IA.",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#f2f4f7",
+    theme_color: "#13233f",
+    icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }],
   };
 }

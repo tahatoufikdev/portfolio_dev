@@ -1,460 +1,241 @@
 {
   "meta": {
-    "title": "Taha TOUFIK - Website Creation, E-commerce & Maintenance | Freelance Web Developer",
-    "description": "Professional website creation: showcase site from €799, e-commerce from €1299, maintenance €99/month. Freelance web developer expert in WordPress, React.js and Next.js. Support €20/h. Free quote.",
-    "titleTemplate": "%s | Taha TOUFIK - Web Developer"
+    "title": "Taha TOUFIK | Websites, apps and automation with AI",
+    "description": "Software engineer (French master's-level degree) and freelance developer. Business sites and online stores (WordPress or custom), mobile and desktop apps, and automation of your repetitive tasks (spreadsheets, orders, follow-ups) with AI."
   },
   "nav": {
-    "home": "Home",
-    "skills": "Skills",
+    "services": "Services",
+    "method": "Method",
     "projects": "Projects",
-    "experience": "Experience",
-    "pricing": "Pricing",
-    "blog": "Articles",
-    "testimonials": "Testimonials",
+    "about": "Experience",
     "contact": "Contact",
-    "theme": "Theme"
+    "whatsapp": "WhatsApp",
+    "language": "Language"
   },
   "hero": {
-    "greeting": "Hello, I'm",
-    "name": "Taha TOUFIK",
-    "title": "Software Development Engineer",
-    "description": "",
-    "professional_message": "Creator of modern and intuitive web experiences, I am a passionate developer with expertise in complete web solutions. I design high-performance digital solutions that combine elegant design and quality code, transforming your ideas into intuitive applications to bring your most ambitious projects to life with measurable results.",
-    "cta_projects": "View my projects",
-    "cta_contact": "Contact me",
-    "stats": {
-      "projects": "Projects completed",
-      "clients": "Satisfied clients",
-      "experience": "Years of experience",
-      "technologies": "Technologies"
-    }
+    "title": "I build your websites,\nyour automations,\nand your apps.",
+    "intro": "I'm Taha Toufik, a software engineer with a French master's degree in web development, and a freelance developer. You explain what you need in your own words, and I turn it into a website, an app or a tool that works. I check everything before handing it over.",
+    "cta_whatsapp": "Chat on WhatsApp",
+    "cta_projects": "See my projects",
+    "markets": "I work with clients in France and Saudi Arabia.",
+    "chat_caption": "Based on a real client request",
+    "chat": [
+      {
+        "from": "client",
+        "text": "For every order, I create the invoice, buy the shipping labels and send it all to the person who packs. It takes forever."
+      },
+      {
+        "from": "taha",
+        "text": "We can automate all of it. Your customer gets their invoice as soon as they pay, and you get a single email with the labels and the packing slip."
+      },
+      {
+        "from": "client",
+        "text": "Will it work with the tools I already use?"
+      },
+      {
+        "from": "taha",
+        "text": "Yes, I start from what you have: your website, your spreadsheets, your emails. You don't have to change a thing."
+      }
+    ],
+    "whatsapp_message": "Hello Taha, I'd like to talk about my project."
   },
-  "skills": {
-    "title": "My",
-    "title_highlight": "Skills",
-    "subtitle": "Technologies and tools I master",
-    "learning": "Always learning and improving my skills with the latest technologies 🚀",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "tools": "Tools & CMS",
-    "mobile": "Mobile",
-    "react": "React",
-    "nextjs": "Next.js",
-    "typescript": "TypeScript",
-    "tailwind": "Tailwind CSS",
-    "wordpress": "Wordpress",
-    "nodejs": "Node.js",
-    "express": "Express",
-    "postgresql": "PostgreSQL",
-    "nosql": "NoSQL",
-    "git": "Git",
-    "figma": "Figma",
-    "reactnative": "React Native",
-    "level": {
-      "senior": "Senior",
-      "intermediate": "Intermediate",
-      "junior": "Junior"
-    }
+  "services": {
+    "title": "What I do for you",
+    "items": [
+      {
+        "title": "Business websites and online stores",
+        "text": "On WordPress and WooCommerce, or custom-built with React and Next.js when your project calls for it. Fast sites that rank well and are easy to update: I handle the design, the content and the launch.",
+        "examples": "Business site, online store, WordPress or custom, redesign, maintenance"
+      },
+      {
+        "title": "Mobile apps",
+        "text": "Apps for iPhone and Android, for your customers or your team: ordering, catalogue, booking, tracking.",
+        "examples": "iOS and Android, customer or internal app"
+      },
+      {
+        "title": "Desktop apps",
+        "text": "Custom software for Windows and Mac, when a tool needs to run on your computers: stock management, invoicing, file processing.",
+        "examples": "Windows and Mac, internal tools"
+      },
+      {
+        "title": "Task automation",
+        "text": "Spreadsheets that fill themselves, order calculations, customer follow-ups, automatic exports. I find what wastes your time and turn it into a tool, with AI when it helps.",
+        "examples": "Excel and Google Sheets, orders, emails, AI"
+      }
+    ]
   },
-  "levels": {
-    "senior": "Senior",
-    "intermediate": "Intermediate",
-    "junior": "Junior"
+  "method": {
+    "title": "How I work with AI",
+    "intro": "AI saves me a lot of time. I spend that time understanding what you need and checking the result.",
+    "steps": [
+      {
+        "title": "You explain what you need",
+        "text": "By message or on a call, in your own words. No technical specification required."
+      },
+      {
+        "title": "I translate it for the AI",
+        "text": "I break the work into precise steps and give Claude Code all the context it needs. Communicating well with AI is what makes the result good."
+      },
+      {
+        "title": "I review and test everything",
+        "text": "Nothing ships without being checked: the code, the mobile layout, the edge cases."
+      },
+      {
+        "title": "I deliver and stay available",
+        "text": "You get a ready-to-use tool and clear explanations. If something needs to change, just tell me."
+      }
+    ]
   },
   "projects": {
-    "title": "My",
-    "title_highlight": "Projects",
-    "subtitle": "A selection of my recent work",
+    "title": "Projects",
+    "intro": "Live websites and apps for real clients, built with or without AI.",
     "all": "All",
-    "fullstack": "Full Stack",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "mobile": "Mobile",
-    "wordpress": "Wordpress",
-    "view_demo": "View demo",
-    "view_project": "View project",
-    "source_code": "Source code",
-    "items": {
-      "ecommerce": {
-        "title": "E-commerce Platform",
-        "description": "Complete e-commerce platform with integrated payment, inventory management and admin dashboard.",
-        "longDescription": "Modern e-commerce application developed with Next.js and Node.js. Stripe payment integration, real-time inventory management system, and comprehensive admin interface with analytics."
-      },
-      "mobile_finance": {
-        "title": "Finance Mobile App",
-        "description": "Personal finance management mobile app with cloud sync and analytics.",
-        "longDescription": "React Native application to track expenses, create budgets and visualize finances with interactive charts. Multi-device synchronization via Firebase."
-      },
-      "dashboard": {
-        "title": "SaaS Analytics Dashboard",
-        "description": "Real-time data visualization interface with interactive charts and custom reports.",
-        "longDescription": "Modern dashboard to visualize and analyze real-time data. Interactive charts, advanced filters, PDF report export, and complete interface customization."
-      },
-      "api_restful": {
-        "title": "RESTful API Microservices",
-        "description": "Microservices architecture with RESTful API, JWT authentication and Swagger documentation.",
-        "longDescription": "Scalable backend based on microservices architecture. JWT authentication, rate limiting, automatic API documentation with Swagger, and comprehensive unit tests."
-      },
-      "social_network": {
-        "title": "Creative Social Network",
-        "description": "Social platform for creators with content sharing, messaging and like system.",
-        "longDescription": "Modern social network for creators to share content, interact with community, real-time messaging with WebSockets, and recommendation system."
-      },
-      "store_it": {
-        "title": "Store It - Cloud Storage",
-        "description": "Modern cloud storage application with file sharing and folder management.",
-        "longDescription": "Complete cloud storage solution developed with Next.js and TypeScript. Intuitive interface to manage your files, share with other users, and organize your documents securely."
-      },
-      "airbnb": {
-        "title": "Airbnb Clone",
-        "description": "Airbnb clone with booking system and accommodation search.",
-        "longDescription": "Accommodation booking application inspired by Airbnb. Advanced search, booking system, listing management and modern user interface with Next.js."
-      },
-      "trello": {
-        "title": "Trello Clone",
-        "description": "Task management application inspired by Trello with drag & drop.",
-        "longDescription": "Trello clone to create boards, lists and cards. Drag & drop system to organize tasks, collaborative management and intuitive interface."
-      },
-      "instagram": {
-        "title": "Instagram Clone",
-        "description": "Instagram clone with photo sharing and like system.",
-        "longDescription": "Social application inspired by Instagram. Photo sharing, like and comment system, news feed and user profiles with TypeScript and React."
-      },
-      "memories": {
-        "title": "Memories App",
-        "description": "Memory sharing application with storage and photo gallery.",
-        "longDescription": "Application to save and share memories. Photo gallery, descriptions, tags and chronological organization of important moments."
-      },
-      "portfolio": {
-        "title": "My Portfolio",
-        "description": "Modern personal portfolio with elegant design and smooth animations.",
-        "longDescription": "Developer portfolio with modern interface, Framer Motion animations, and responsive design. Presentation of projects, skills and professional experiences."
-      },
-      "travel": {
-        "title": "Travel UI/UX",
-        "description": "Modern travel interface with attractive design and optimal user experience.",
-        "longDescription": "Landing page for a travel application. Modern and clean design, subtle animations, destination presentation and responsive interface developed with Next.js."
-      },
-      "angular": {
-        "title": "Angular Practices",
-        "description": "Angular learning projects with various features and components.",
-        "longDescription": "Repository of Angular projects and practical exercises. Exploring framework features, reusable components and development best practices."
-      },
-      "boucherie": {
-        "title": "Boucherie La Belle Rouge",
-        "description": "E-commerce site for butcher shop with online sales and order system.",
-        "longDescription": "Wordpress/WooCommerce e-commerce site for traditional butcher shop. Product catalog, online ordering system, inventory management, and intuitive customer interface."
-      },
-      "iksiir": {
-        "title": "Iksiir",
-        "description": "Online store for natural products: black seed oil, prickly pear seed oil, incense and natural care products.",
-        "longDescription": "Wordpress e-commerce specialized in natural products and essential oils. Black seed oil, prickly pear seed oil, incense and natural care products. Elegant design, secure payment and fast delivery."
-      },
-      "mazanutri": {
-        "title": "Mazanutri Beauty",
-        "description": "Beauty e-commerce site with cosmetic products and booking system.",
-        "longDescription": "Wordpress site for beauty institute and cosmetic product sales. Product catalog, ordering system, booking integration, and beauty blog."
-      },
+    "ai_title": "Built with AI",
+    "ai_intro": "With Claude Code, I go further and faster: automations that save the client hours, and complete apps.",
+    "in_progress": "In development",
+    "cases": {
       "habachiya": {
-        "title": "Habachiya",
-        "description": "Wholesale site specialized in Ethiopian black seed oil and derivatives since 2019.",
-        "longDescription": "Modification and customization of a Wordpress page for Habachiya, privileged wholesale partner for Ethiopian black seed oil and its derivatives. Design improvement, B2B interface optimization and enhancement of Ethiopian natural products."
+        "summary": "Online store for a wholesaler of Ethiopian black seed oil. I built the site on WordPress, then used Claude Code to automate everything that happens after an order:",
+        "points": [
+          "The customer receives their invoice automatically as soon as they pay.",
+          "The order is split into parcels following the client's rules (oils, honey, dates), and shipping labels are bought automatically.",
+          "The owner gets a single email per order: the labels to stick on the parcels, the packing slip and the invoice.",
+          "The order switches to “Completed” on its own once delivered, and the owner is alerted if anything goes wrong.",
+          "Customers pick their pickup point on a map at checkout."
+        ],
+        "result": "The result: after an order, all that's left is to print, stick on the labels and pack the parcel."
       },
-      "ecoviande": {
-        "title": "Ecoviande",
-        "description": "Exceptional meats for memorable dishes. Artisanal butcher shop specializing in quality meats.",
-        "longDescription": "Wordpress showcase website for Ecoviande, artisanal butcher shop offering exceptional meats. Highlighting quality, tradition and experience. Elegant and professional design to showcase artisanal expertise."
-      }
-    }
-  },
-  "experience": {
-    "title": "My",
-    "title_highlight": "Journey",
-    "subtitle": "Companies I've had the pleasure of working with",
-    "months": {
-      "Jan": "Jan",
-      "Feb": "Feb",
-      "Mar": "Mar",
-      "Apr": "Apr",
-      "May": "May",
-      "Jun": "Jun",
-      "Jul": "Jul",
-      "Aug": "Aug",
-      "Sep": "Sep",
-      "Oct": "Oct",
-      "Nov": "Nov",
-      "Dec": "Dec"
-    },
-    "type": {
-      "Hybrid": "Hybrid",
-      "Apprenticeship": "Apprenticeship",
-      "Internship": "Internship"
-    },
-    "items": {
-      "freelance_2024": {
-        "position": "Software Engineer",
-        "description": "Designed and developed a web-based e-commerce application in close collaboration with the client. Analyzed needs, sales process, supplier selection, and site design.",
-        "achievements": [
-          "In-depth analysis of client needs and target audience",
-          "Development of a tailored e-commerce solution",
-          "Delivery and implementation of a solution meeting project requirements"
-        ]
-      },
-      "freelance_2023": {
-        "position": "Software Engineer",
-        "description": "As a full-stack developer, I designed and deployed a website tailored to specific client project requirements with robust architecture.",
-        "achievements": [
-          "Collection of functional and technical requirements through collaborative workshops",
-          "Integration of an intuitive front-end and optimized back-end management",
-          "Delivery of a turnkey solution aligned with client challenges"
-        ]
-      },
-      "woby": {
-        "position": "Full-Stack Software Engineer",
-        "description": "Development of challenging features in an AWS environment. Optimization of displaying 10,000 collaborator images with caching and reporting system.",
-        "achievements": [
-          "Optimization of storage and loading of 1M images via S3, Lambda and API Gateway",
-          "Implementation of resizing algorithm and browser cache mechanism",
-          "Development of Reporting system with automated Excel export via AWS Lambda"
+      "breakfast": {
+        "summary": "Click & collect app for bakeries. I took over this project and I am building it with Claude Code, for Android, iPhone and tablet:",
+        "points": [
+          "Customers order and pay in the app (card, Google Pay), then pick up their order in the time slot they chose.",
+          "They see their bakery's stock for the day and follow the preparation live, with a skip-the-line QR code.",
+          "Bakers get every order as a notification and accept it in one tap, from their phone or tablet.",
+          "Sign in with Google or with a fingerprint, loyalty programme, automatic data backups."
+        ],
+        "captions": [
+          "The shop",
+          "Order tracking",
+          "The baker's dashboard"
         ]
       },
       "orange": {
-        "position": "Backend Developer/Analyst",
-        "description": "Optimization of internal data analysis process. Automation of data collection and visualization via Google Cloud Platform.",
-        "achievements": [
-          "Design of GCP-based solution (Cloud Functions, Cloud Scheduler)",
-          "Development of algorithm to retrieve and format data via Firebase API",
-          "Configuration of Google Data Studio for automated graphical visualization"
-        ]
-      },
-      "inria": {
-        "position": "Web Developer",
-        "description": "Web development with focus on user experience and modern interface.",
-        "achievements": [
-          "Development of user interfaces with React.js",
-          "Integration of Material-UI for consistent design",
-          "Use of REST API with Swagger and PostgreSQL"
+        "title": "Orange: automated data reports",
+        "summary": "During my work-study at Orange, I automated the data analysis of an internal team, with no manual work at all:",
+        "points": [
+          "At a set time, Cloud Scheduler triggers a serverless function (Node.js on Google Cloud).",
+          "The function collects data from several sources and formats it.",
+          "The data is stored in BigQuery, then shown as charts in Google Data Studio."
+        ],
+        "result": "The result: the team always has up-to-date dashboards, with nothing to prepare by hand.",
+        "flow": [
+          "Cloud Scheduler",
+          "Serverless function",
+          "BigQuery",
+          "Data Studio"
         ]
       }
+    },
+    "manual_title": "Built without AI",
+    "manual_intro": "Before working with AI, I built these projects myself, line by line. That experience is what lets me check and fix what AI produces today.",
+    "items": {
+      "boucherie": "Online store for a butcher's shop, with online ordering.",
+      "ecoviande": "Website for an artisan butcher specialising in quality meat.",
+      "iksiir": "Natural products store: black seed oil, prickly pear, incense."
     }
   },
-  "testimonials": {
-    "title": "Testimonials",
-    "subtitle": "What my clients and partners say"
+  "about": {
+    "intro": "Software engineer with a French master's degree in web development (Bac+5), trained at Woby and Orange. There I already automated features and data collection: that's what I do for my clients today, with AI on top.",
+    "experience_title": "Experience",
+    "skills_title": "Skills",
+    "experience": [
+      {
+        "company": "Freelance",
+        "role": "Web and app developer",
+        "period": "Since 2023",
+        "location": "France and Saudi Arabia",
+        "text": "Business sites and online stores (WordPress, WooCommerce, Next.js), apps and automation for shops and small businesses."
+      },
+      {
+        "company": "Woby",
+        "role": "Full-stack software engineer, work-study",
+        "period": "Dec 2022 – Aug 2023",
+        "location": "Paris, France",
+        "text": "Optimised loading of one million images on AWS (S3, Lambda) and automated Excel exports."
+      },
+      {
+        "company": "Orange",
+        "role": "Back-end developer and analyst, work-study",
+        "period": "Oct 2021 – Oct 2022",
+        "location": "Arcueil, France",
+        "text": "Automated the collection and visualisation of internal data on Google Cloud."
+      },
+      {
+        "company": "Inria",
+        "role": "Web developer, internship",
+        "period": "Apr – Jul 2021",
+        "location": "Nancy, France",
+        "text": "React interfaces with Material-UI, REST APIs and PostgreSQL."
+      }
+    ],
+    "skill_groups": [
+      {
+        "title": "AI and automation",
+        "items": [
+          "Claude Code",
+          "Writing clear instructions for AI",
+          "Connecting AI to your tools",
+          "Excel and Google Sheets",
+          "Automation scripts"
+        ]
+      },
+      {
+        "title": "Web",
+        "items": [
+          "WordPress",
+          "WooCommerce",
+          "React",
+          "Next.js",
+          "JavaScript",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Mobile",
+        "items": [
+          "React Native",
+          "Expo"
+        ]
+      },
+      {
+        "title": "Back-end and data",
+        "items": [
+          "Node.js",
+          "NestJS",
+          "MongoDB",
+          "PostgreSQL",
+          "AWS",
+          "Google Cloud"
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          "Git and GitHub",
+          "Vercel",
+          "Figma"
+        ]
+      }
+    ]
   },
   "contact": {
-    "title": "Contact Me",
-    "subtitle": "Have a project idea? Feel free to reach out!",
-    "stay_connected": "Let's stay in touch",
-    "intro": "I'm always open to new opportunities and interesting projects. Don't hesitate to contact me to discuss your project!",
-    "email": "Email",
-    "whatsapp": "WhatsApp",
-    "phone": "Phone",
-    "location": "Location",
-    "follow": "Follow me on social media",
-    "form": {
-      "name": "Full name",
-      "name_placeholder": "Your name",
-      "email": "Email",
-      "email_placeholder": "your@email.com",
-      "subject": "Subject",
-      "subject_placeholder": "What would you like to talk about?",
-      "message": "Message",
-      "message_placeholder": "Your message...",
-      "sending": "Sending...",
-      "sent": "Message sent!",
-      "send": "Send message"
-    }
+    "title": "Let's talk about your project",
+    "text": "Write me a few lines about what takes up your time or what you want to launch. I'll reply with a first idea of a solution.",
+    "whatsapp": "Message me on WhatsApp",
+    "email": "Send an email"
   },
   "footer": {
-    "made_with": "Made with",
-    "and": "and"
-  },
-  "social": {
-    "whatsapp": "WhatsApp",
-    "email": "Email",
-    "linkedin": "LinkedIn",
-    "github": "GitHub"
-  },
-  "scrollToTop": {
-    "label": "Back to top"
-  },
-  "blog": {
-    "title": "My",
-    "title_highlight": "Articles",
-    "subtitle": "Tips, tricks and news about web development, WordPress and e-commerce",
-    "search_placeholder": "Search articles...",
-    "read_more": "Read more",
-    "no_results": "No articles found",
-    "posts": {
-      "wordpress_2025": {
-        "title": "Why choose WordPress in 2025 for your website?",
-        "excerpt": "WordPress remains the world's most popular CMS. Discover why it's still the best choice for creating your showcase or e-commerce site in 2025."
-      },
-      "ecommerce_trends": {
-        "title": "Essential e-commerce trends in 2025",
-        "excerpt": "Online commerce is evolving rapidly. Explore the latest trends that will transform your online store and boost your sales."
-      },
-      "seo_optimization": {
-        "title": "How to optimize your website's SEO in 2025",
-        "excerpt": "Rank your site on Google's first page with these proven SEO techniques. Complete guide to improve your organic search ranking."
-      }
-    }
-  },
-  "tags": {
-    "nextjs": "Next.js",
-    "nodejs": "Node.js",
-    "postgresql": "PostgreSQL",
-    "stripe": "Stripe",
-    "tailwind": "Tailwind",
-    "react_native": "React Native",
-    "firebase": "Firebase",
-    "typescript": "TypeScript",
-    "chartjs": "Chart.js",
-    "react": "React",
-    "d3js": "D3.js",
-    "rest_api": "REST API",
-    "material_ui": "Material-UI",
-    "express": "Express",
-    "mongodb": "MongoDB",
-    "docker": "Docker",
-    "redis": "Redis",
-    "socketio": "Socket.io",
-    "aws_s3": "AWS S3",
-    "graphql": "GraphQL",
-    "apollo": "Apollo",
-    "cloud_storage": "Cloud Storage",
-    "booking_system": "Booking System",
-    "drag_drop": "Drag & Drop",
-    "social_media": "Social Media",
-    "javascript": "JavaScript",
-    "memories": "Memories",
-    "portfolio": "Portfolio",
-    "framer_motion": "Framer Motion",
-    "ui_ux": "UI/UX",
-    "travel": "Travel",
-    "angular": "Angular",
-    "learning": "Learning",
-    "components": "Components",
-    "wordpress": "Wordpress",
-    "b2b": "B2B",
-    "huile_nigelle": "Black Seed Oil",
-    "huile_de_nigelle": "Black Seed Oil",
-    "ethiopie": "Ethiopia",
-    "woocommerce": "WooCommerce",
-    "ecommerce": "E-commerce",
-    "e_commerce": "E-commerce",
-    "php": "PHP",
-    "produits_naturels": "Natural Products",
-    "beauty": "Beauty",
-    "site_vitrine": "Showcase Website",
-    "boucherie": "Butcher Shop"
-  },
-  "clientTestimonials": {
-    "iksiir": "I thank Taha for designing my website, especially for the quality and speed of execution. He listens to your needs but much more than that, he guides and advises you in the best way to optimize your store. Always available, he doesn't leave you hanging after creating your store - he responds and supports you as he did with me even though I knew nothing. I recommend 100% with my eyes closed",
-    "boucherie": "I am very satisfied with the result of my website. The team met all my expectations and supported me in the early stages of launching the site. I strongly recommend anyone wanting to create their website to reach out."
-  },
-  "pricing": {
-    "title": "My",
-    "title_highlight": "Pricing",
-    "subtitle": "Solutions tailored to your needs and budget",
-    "popular": "Popular",
-    "starting_from": "Starting from",
-    "per_month": "Per month",
-    "per_month_short": "/month",
-    "per_hour": "Per hour",
-    "per_hour_short": "/hour",
-    "custom_price": "Custom",
-    "cta_button": "Start my project",
-    "note": "All projects include 3 months of technical support",
-    "plans": {
-      "showcase": {
-        "name": "Showcase Website",
-        "description": "Perfect for presenting your business or services online",
-        "features": [
-          "Modern and responsive design",
-          "Up to 5 custom pages",
-          "Basic SEO optimization",
-          "Contact form",
-          "Hosting recommendations",
-          "Site management training"
-        ]
-      },
-      "ecommerce": {
-        "name": "E-commerce",
-        "description": "Complete solution to sell your products online",
-        "features": [
-          "Full online store",
-          "Unlimited product management",
-          "Integrated secure payment",
-          "Admin dashboard",
-          "Inventory management",
-          "Priority support 3 months",
-          "Complete training"
-        ]
-      },
-      "maintenance": {
-        "name": "Maintenance",
-        "description": "Take care of your website with our monthly maintenance service",
-        "features": [
-          "Regular updates",
-          "Automatic backups",
-          "Security monitoring",
-          "Bug fixes",
-          "Priority technical support",
-          "Performance optimization"
-        ]
-      },
-      "hourly": {
-        "name": "Coaching",
-        "description": "Technical support and advice by the hour for your specific needs",
-        "features": [
-          "Bug fixes",
-          "Technical advice",
-          "Development assistance",
-          "Code review",
-          "Performance optimization",
-          "Personalized training"
-        ]
-      },
-      "redesign_showcase": {
-        "name": "Showcase Redesign",
-        "description": "Modernize your showcase website with a new design and better performance",
-        "features": [
-          "Modern new design",
-          "UX/UI improvement",
-          "Advanced SEO optimization",
-          "Optimized performance",
-          "Responsive design",
-          "Content migration"
-        ]
-      },
-      "redesign_ecommerce": {
-        "name": "E-commerce Redesign",
-        "description": "Transform your online store with a complete and modern redesign",
-        "features": [
-          "Modern and attractive design",
-          "Sales funnel optimization",
-          "User experience improvement",
-          "Performance and speed",
-          "Product migration",
-          "New features integration"
-        ]
-      },
-      "custom": {
-        "name": "Custom Project",
-        "description": "A unique solution tailored to your specific needs",
-        "features": [
-          "Detailed needs analysis",
-          "Custom architecture",
-          "Unlimited features",
-          "Third-party API integrations",
-          "Guaranteed scalability",
-          "Dedicated technical support",
-          "Continuous maintenance"
-        ]
-      }
-    }
+    "made_with": "Designed and built with Claude Code."
   }
 }

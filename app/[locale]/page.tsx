@@ -1,56 +1,33 @@
-import AnimatedBackground from '@/components/ui/animated-background';
-import Navbar from '@/components/ui/navbar';
-import CustomCursor from '@/components/ui/custom-cursor';
-import Hero from '@/components/sections/hero';
-import Skills from '@/components/sections/skills';
-import Projects from '@/components/sections/projects';
-import Experience from '@/components/sections/experience';
-import Pricing from '@/components/sections/pricing';
-import Footer from '@/components/ui/footer';
-import ScrollToTop from '@/components/ui/scroll-to-top';
-import ParallaxSection from '@/components/ui/parallax-section';
+import { getTranslations, isLocale } from "@/lib/get-translations";
+import Header from "@/components/site/header";
+import Hero from "@/components/site/hero";
+import Services from "@/components/site/services";
+import Method from "@/components/site/method";
+import Projects from "@/components/site/projects";
+import About from "@/components/site/about";
+import Contact from "@/components/site/contact";
+import CardEffects from "@/components/site/card-effects";
 
-// Generate static params for all locales
-export async function generateStaticParams() {
-  return [
-    { locale: 'fr' },
-    { locale: 'en' },
-    { locale: 'ar' },
-  ];
-}
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: param } = await params;
+  const locale = isLocale(param) ? param : "fr";
+  const t = getTranslations(locale);
 
-export default function Home() {
   return (
-    <div className="relative w-full overflow-x-hidden">
-      {/* Animated Background */}
-      <AnimatedBackground />
-
-      {/* Custom Cursor - Hidden on mobile */}
-      <div className="hidden md:block">
-        <CustomCursor />
-      </div>
-
-      {/* Navigation */}
-      <Navbar />
-
-      {/* Main Content */}
-      <main className="relative z-10 w-full">
-        <Hero />
-        <ParallaxSection speed={0.3}>
-          <Projects />
-        </ParallaxSection>
-        <Pricing />
-        <Skills />
-        <ParallaxSection speed={0.3}>
-          <Experience />
-        </ParallaxSection>
+    <>
+      <Header t={t} locale={locale} />
+      <main>
+        <Hero t={t} />
+        <Services t={t} />
+        <Method t={t} />
+        {/* Projets + expérience : un seul dégradé vert → noir, qui enchaîne sur le contact (noir → vert) */}
+        <div className="bg-night bg-linear-to-b from-palm to-night">
+          <Projects t={t} />
+          <About t={t} locale={locale} />
+        </div>
       </main>
-
-      {/* Footer - Remplace la section Contact */}
-      <Footer />
-
-      {/* Scroll to Top Button */}
-      <ScrollToTop />
-    </div>
+      <Contact t={t} />
+      <CardEffects />
+    </>
   );
 }
