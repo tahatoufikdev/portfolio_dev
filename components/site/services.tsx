@@ -58,6 +58,20 @@ export default function Services({ t }: { t: Dictionary }) {
           );
         })}
       </div>
+
+      {/* Mise en avant : tout le monde a des tâches répétitives à automatiser.
+          Le bloc tombe dans la partie sombre du dégradé de la section (texte clair). */}
+      <div className="mt-16 text-center text-white sm:mt-20">
+        <p className="display mx-auto max-w-3xl text-2xl font-semibold text-balance sm:text-3xl">{t.services.auto.title}</p>
+        <ul className="mx-auto mt-8 flex max-w-4xl flex-wrap justify-center gap-3">
+          {t.services.auto.tasks.map((task) => (
+            <li key={task} className="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm sm:text-base">
+              {task}
+            </li>
+          ))}
+        </ul>
+        <p className="mx-auto mt-6 max-w-2xl text-white/75">{t.services.auto.text}</p>
+      </div>
     </Section>
   );
 }
