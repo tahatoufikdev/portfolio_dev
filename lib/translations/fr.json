@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Taha TOUFIK | Sites, applications et automatisations avec l'IA",
-    "description": "Ingénieur logiciel (Bac+5) et développeur freelance. Sites vitrines et e-commerce (WordPress ou sur mesure), applications mobiles et desktop, automatisation de vos tâches répétitives (Excel, commandes, relances) grâce à l'IA."
+    "description": "Ingénieur logiciel (Bac+5) et développeur freelance. Sites vitrines et e-commerce (WordPress ou sur mesure), applications mobiles et desktop, et automatisation de toutes vos tâches répétitives grâce à l’IA."
   },
   "nav": {
     "services": "Services",
@@ -59,10 +59,22 @@
       },
       {
         "title": "Automatisation des tâches",
-        "text": "Fichiers Excel qui se remplissent seuls, calcul des commandes, relances clients, exports automatiques. Je repère ce qui vous fait perdre du temps et je le transforme en outil, avec l'IA quand elle est utile.",
-        "examples": "Excel et Google Sheets, commandes, emails, IA"
+        "text": "Répondre aux mêmes messages, envoyer les factures, relancer les clients, recopier des données… Je repère les tâches qui vous font perdre du temps et je les transforme en outils automatiques, avec l’IA quand elle est utile.",
+        "examples": "Messages, factures, relances, données, rendez-vous, rapports"
       }
-    ]
+    ],
+    "auto": {
+      "title": "Tout ce que vous refaites chaque jour peut se faire tout seul.",
+      "tasks": [
+        "Répondre aux mêmes messages",
+        "Envoyer les factures",
+        "Relancer les clients",
+        "Recopier des données",
+        "Gérer les rendez-vous",
+        "Préparer les rapports"
+      ],
+      "text": "Commerçant, artisan, indépendant ou PME : vous gagnez des heures chaque semaine."
+    }
   },
   "method": {
     "title": "Comment je travaille avec l'IA",

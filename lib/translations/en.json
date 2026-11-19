@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Taha TOUFIK | Websites, apps and automation with AI",
-    "description": "Software engineer (French master's-level degree) and freelance developer. Business sites and online stores (WordPress or custom), mobile and desktop apps, and automation of your repetitive tasks (spreadsheets, orders, follow-ups) with AI."
+    "description": "Software engineer (French master’s-level degree) and freelance developer. Business sites and online stores (WordPress or custom), mobile and desktop apps, and automation of all your repetitive tasks with AI."
   },
   "nav": {
     "services": "Services",
@@ -59,10 +59,22 @@
       },
       {
         "title": "Task automation",
-        "text": "Spreadsheets that fill themselves, order calculations, customer follow-ups, automatic exports. I find what wastes your time and turn it into a tool, with AI when it helps.",
-        "examples": "Excel and Google Sheets, orders, emails, AI"
+        "text": "Answering the same messages, sending invoices, following up with clients, copying data… I find the tasks that eat your time and turn them into automatic tools, with AI when it helps.",
+        "examples": "Messages, invoices, follow-ups, data, appointments, reports"
       }
-    ]
+    ],
+    "auto": {
+      "title": "Anything you redo every day can run on its own.",
+      "tasks": [
+        "Answering the same messages",
+        "Sending invoices",
+        "Following up with clients",
+        "Copying data",
+        "Managing appointments",
+        "Preparing reports"
+      ],
+      "text": "Shop owner, craftsperson, freelancer or small business: you save hours every week."
+    }
   },
   "method": {
     "title": "How I work with AI",
